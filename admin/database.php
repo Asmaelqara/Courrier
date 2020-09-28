@@ -1,11 +1,11 @@
 <?php
 // database connection config
 $dbHost = 'localhost';
-$dbUser = 'root';
-$dbPass = '';
+$dbUser = 'asmae_root';
+$dbPass = 'rootroot';
 $dbName = 'courier_db';
 
-$dbConn = mysqli_connect("localhost", "root", "", "courier_db") or die ('MySQL connect failed. ' . mysql_error());
+$dbConn = mysqli_connect("localhost", "asmae_root", "rootroot", "courier_db") or die ('MySQL connect failed. ' . mysql_error());
 
 
 mysqli_select_db("courier_db",$dbConn) or die('Cannot select database. ' . mysql_error());
